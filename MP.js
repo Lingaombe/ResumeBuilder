@@ -73,14 +73,14 @@
 }
 
 function Clear(){
-    document.getElementById("experience").textContent = " ";
-    document.getElementById("skills").textContent = " ";
+    document.getElementById("experience").value = null;
+    document.getElementById("skills").value = null;
     document.getElementById("pic").value = null;
-    document.getElementById("name").textContent = " ";
-    document.getElementById("email").textContent = " ";
-    document.getElementById("phone").textContent = " ";
-    document.getElementById("summary").textContent = " ";
-    document.getElementById("education").textContent = " ";
+    document.getElementById("name").value = null;
+    document.getElementById("email").value = null;
+    document.getElementById("phone").value = null;
+    document.getElementById("summary").value = null;
+    document.getElementById("education").value = null;
     document.getElementById("output").textContent = " ";
 }
 
